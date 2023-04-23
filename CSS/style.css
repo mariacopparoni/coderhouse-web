@@ -1,0 +1,106 @@
+h1 {
+   
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: #0D0D0D;
+    
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: #0D0D0D;
+    
+
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    background-color: white;
+    margin: 0%;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3F7E8C;
+  }
+  
+
+footer {
+  /*position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;  */
+ border: top 2px;color: #0D0D0D;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #3F7E8C;
+   }
+
+li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0D0D0D;
+  }
+main {
+  background-color: #E0F2C4;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+}
+.pie{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center
+}
+.intro{
+  text-align: center;
+}
+.contacto{
+  font-family: 'Roboto', sans-serif;
+}
+.consejos{
+  text-align: center;
+  background-color: #E0F2C4
+}
+.galeria{
+  text-align: center;
+  background-color: #E0F2C4
+}
+
+
+/*
+Paleta de colores a utilizar
+#6DDAF2 turquesa
+#3F7E8C azul
+#A4D955 verde intermedio
+#E0F2C4 verde claro
+#0D0D0D verde casi negro (o negro)

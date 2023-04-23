@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerarios</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+
+        <div >
+            <img src="../img/logo.png" alt="logo" height="150px" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galería</a>
+                </li>
+                <li>
+                    <a href="itinerarios.html">Itinerarios</a>
+                </li>
+                <li>
+                    <a href="consejos.html">Consejos</a>
+                </li>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+<main>
+    <section>
+        <h1>Itinerarios</h1>
+        <h3>Vos nos contás a dónde vas y cuántos días te quedás y nosotros te contamos la mejor manera de aprovechar tu estadía.</h3>
+        <form>
+            <div>
+            <label for="continente">Continente: </label>
+            <select name="continente" id="continente">
+            <option value=""> </option>
+            <option value="Africa">África</option>
+            <option value="America">América</option>
+            <option value="Asia">Asia</option>
+            <option value="Europa">Europa</option>
+            <option value="Oceanía">Oceanía</option>
+            </select>
+            </div>
+
+            <div>
+                <label for="pais">Pais </label>
+                <select name="pais" id="name">
+                <option value=""> </option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Brasil">Brasil</option>
+                <option value="España">España</option>
+                <option value="Italia">Italia</option>
+                <option value="Francia">Francia</option>
+                <option value="Irlanda">Irlanda</option>
+                <option value="Checa">República Checa</option>
+                <option value="Alemania">Alemania</option>
+                <option value="Inglaterra">Inglaterra</option>
+                <option value="Escocia">Escocia</option>
+                <option value="Australia">Australia</option>
+                <option value="EEUU">EEUU</option>
+                <option value="Sudafrica">Sudáfrica</option>
+                <option value="Canada">Canadá</option>
+                <option value="Marruecos">Marruecos</option>
+                <option value="Egipto">Egipto</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="ciudad">Ciudad</label>
+                <select name="Ciudad" id="name">
+                <option value=""> </option>
+                <option value="BsAs">Buenos Aires</option>
+                <option value="Bariloche">Bariloche</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Santiago">Santiago de Chile</option>
+                <option value="Viña">Viña del Mar</option>
+                <option value="Brasilia">Brasilia</option>
+                <option value="Rio">Rio de Janeiro</option>
+                <option value="SaoPaulo">Sao Paulo</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Malaga">Málaga</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Roma">Roma</option>
+                <option value="Venecia">Venecia</option>
+                <option value="Milan">Milan</option>
+                <option value="Florencia">Florencia</option>
+                <option value="Paris">París</option>
+                <option value="Tolouse">Tolouse</option>
+                <option value="Niza">Niza</option>
+                <option value="Dublin">Dublín</option>
+                <option value="Praga">Praga</option>
+                <option value="Berlin">Berlín</option>
+                <option value="Frankfurt">Frankfurt</option>
+                <option value="Munich">Munich</option>
+                <option value="Londres">Londres</option>
+                <option value="Manchester">Manchester</option>
+                <option value="Liverpool">Liverpool</option>
+                <option value="Edimburgo">Edimburgo</option>
+                <option value="Glasgow">Glasgow</option>
+                <option value="Sidney">Sidney</option>
+                <option value="Melbourne">Melbourne</option>
+                <option value="NY">New York</option>
+                <option value="DC">Washington DC</option>
+                <option value="LA">Los Ángeles</option>
+                <option value="Miami">Miami</option>
+                <option value="Cabo">Ciudad del Cabo</option>
+                <option value="Toronto">Toronto</option>
+                <option value="Quebeq">Quebeq</option>
+                <option value="Marrakesh">Marrakesh</option>
+                <option value="Cairo">El Cairo</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="">Época del año: </label>
+                <select name="estacion" id="estacion">
+                    <option value=""> </option>
+                    <option value="Invierno">Invierno</option>
+                    <option value="Verano">Verano</option>
+                    <option value="Primavera">Primavera</option>
+                    <option value="Otoño">Otoño</option>
+                    
+                </select>
+            </div>
+
+            <div>
+                <label for="">Cantidad de días: </label>
+                <input type="number" name="" id="">
+            </div>
+            
+            <input type="submit" value="Enviar">
+
+        </form>
+
+        <h4>
+            Tené en cuenta que cuando pongas la cantidad de días tenés que contar los días completos, en los que puedas aprovechar desde la mañana hasta la noche. 
+            En caso de tener días incompletos o que la ciudad que vas a visitar no aparezca en nuestro sitio, siempre vas a poder consultarnos a través de nuestra sección de contacto o nuestras redes. 
+        </h4>
+
+        <textarea name="itinerario" id="" cols="100" rows="20"></textarea>
+        
+    </section>
+</main>
+
+<footer>
+    
+    <div class="pie">
+ 
+    <img src="../img/facebook.png" alt="logo facebook">
+    <img src="../img/instagram.png" alt="logo instagram">
+    <img src="../img/gorjeo.png" alt="logo twitter">
+ 
+    </div>
+ 
+   
+  
+ </footer>
+
+</body>
+</html>
