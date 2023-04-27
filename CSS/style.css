@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 h1 {
    
     font-size: 30px;
@@ -25,8 +30,9 @@ a{
 }
 
 div {
-    background-color: white;
-    margin: 0%;
+    /*background-color: white;*/
+    margin: 10px;
+  
   }
 
   ul {
@@ -35,26 +41,47 @@ div {
     padding: 0;
     overflow: hidden;
     background-color: #3F7E8C;
+    font-style: initial;
   }
   
 
 footer {
-  /*position: fixed;
+  position:static;
   bottom: 0;
   right: 0;
-  left: 0;  */
- border: top 2px;color: #0D0D0D;
+  left: 0; 
+  border-style: solid;
+  border-color: #A4D955;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: #3F7E8C;
+
 }
 
 header {
   position: sticky;
   top: 0;
   background-color: #3F7E8C;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: #A4D955;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  z-index: 1;
+  
    }
 
-li {
-    float: right;
-  }
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 
   li a {
     display: block;
@@ -68,12 +95,18 @@ li {
     background-color: #0D0D0D;
   }
 main {
+  height: 1000px;;
   background-color: #E0F2C4;
 }
 h3{
   font-family: 'Roboto', sans-serif;
 }
 h4{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+h5{
   font-family: 'Roboto', sans-serif;
 }
 .pie{
@@ -96,8 +129,160 @@ h4{
   background-color: #E0F2C4
 }
 
+.logo{
+  justify-content: flex-start;
+  height: 100px;
+}
 
+.texto{
+  text-align: center;
+}
+
+.grid {
+  justify-content: center;
+  display: grid;   
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+  overflow: hidden;
+}
+
+.ga {
+  
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gb {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gc {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.gd {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.ge {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.gf {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.monumentos{
+  height: 300px;
+  width: 200px;
+}
+.paisajes{
+  height: 300px;
+  width: 300px;
+}
+.gente{
+  height: 400px;
+  width: 300px;
+}
+.arte{
+  height: 300px;
+  width: 300px;
+}
+.lugares{
+  height: 300px;
+  width: 200px;
+}
+.ustedes{
+  height: 200px;
+  width: 300px;
+}
+.calesita{
+
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.navbar{
+  padding: 0;
+  margin: 0;
+  color: #3F7E8C;
+}
+#enlace{
+  color: white;
+  font-style: italic;
+}
+.introduccion{
+
+justify-content: center;
+  margin: 20px;
+size-adjust:200%;
+
+}
+.bienvenidos{
+ margin: 50px;
+}
+
+.video-intro{
+
+  text-align: center;
+
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  
+  }
+  
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+
+  }
+
+  .form-itinerario{
+    display: flex;
+    flex-wrap: wrap;
+  }
+@media screen and (max-width: 480px) {
+  .grid{
+  display: inline;
+  }
+  .barra{
+    
+    flex-direction: column;
+    justify-items: auto;
+  }
+.galeria-main {
+    height: 2500px;
+  }
+  #galeria-img{
+    width: 300px;
+    height: 500px;
+  }
+  .form-itinerario{
+    display: block;
+  }
+}
 /*
+
 Paleta de colores a utilizar
 #6DDAF2 turquesa
 #3F7E8C azul
