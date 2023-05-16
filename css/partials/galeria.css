@@ -1,0 +1,97 @@
+.galeria {
+  text-align: center;
+}
+
+.grid {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  overflow: hidden;
+}
+.grid .ga {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  transition: all 1s;
+}
+.grid .ga:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gb {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  transition: all 1s;
+}
+.grid .gb:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gc {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  transition: all 1s;
+}
+.grid .gc:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gd {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid .gd:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .ge {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid .ge:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gf {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid .gf:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .monumentos {
+  height: 300px;
+  width: 200px;
+}
+.grid .paisajes {
+  height: 300px;
+  width: 300px;
+}
+.grid .gente {
+  height: 400px;
+  width: 300px;
+}
+.grid .arte {
+  height: 300px;
+  width: 300px;
+}
+.grid .lugares {
+  height: 300px;
+  width: 200px;
+}
+.grid .ustedes {
+  height: 200px;
+  width: 300px;
+}
+
+/*# sourceMappingURL=galeria.css.map */

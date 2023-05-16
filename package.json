@@ -1,0 +1,20 @@
+{
+  "name": "coderhouse-web",
+  "version": "1.0.0",
+  "description": "Curso de Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariacopparoni/coderhouse-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariacopparoni/coderhouse-web/issues"
+  },
+  "homepage": "https://github.com/mariacopparoni/coderhouse-web#readme"
+}

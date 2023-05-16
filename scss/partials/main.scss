@@ -1,0 +1,45 @@
+main {
+    height: 1000px;;
+    background-image: linear-gradient( to top, #E0F2C4, white);
+
+    h1 {
+      font-size: 30px;
+      font-style: italic;
+      font-family: 'Roboto', sans-serif;
+      display: block;
+      text-align: center;
+      padding: 16px;
+      color: $verde-negro;
+
+    }
+
+    h2{
+      font-family: 'Roboto', sans-serif;
+      display: block;
+      text-align: center;
+      padding: 16px;
+      color: $verde-negro;
+    }
+
+    h3{
+      font-family: 'Roboto', sans-serif;
+      padding: 2%;
+      text-align: center;
+    }
+
+    h4{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    
+    }
+
+    h5{
+      font-family: 'Roboto', sans-serif;
+    }
+
+  }
+  
+  
+
+  
+

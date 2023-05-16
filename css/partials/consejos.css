@@ -1,0 +1,11 @@
+main .consejos {
+  text-align: center;
+  background-color: #E0F2C4;
+}
+main .calesita {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=consejos.css.map */

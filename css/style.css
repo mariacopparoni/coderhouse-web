@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #3F7E8C;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: #A4D955;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  z-index: 1;
+}
+header .navbar {
+  padding: 0;
+  margin: 0;
+  color: #3F7E8C;
+}
+header .navbar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3F7E8C;
+  font-style: initial;
+}
+header .navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  font-size: small;
+}
+header .navbar ul li a:hover {
+  background-color: #0D0D0D;
+  border-radius: 5px;
+  border-width: 2px;
+}
+header .navbar ul li a:hover a {
+  font-family: "Roboto", sans-serif;
+  /*color: white;*/
+}
+header .navbar ul #enlace {
+  color: white;
+  font-style: italic;
+}
+header .logo {
+  justify-content: flex-start;
+  height: 100px;
+}
+
+main {
+  height: 1000px;
+  background-image: linear-gradient(to top, #E0F2C4, white);
+}
+main h1 {
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: #0D0D0D;
+}
+main h2 {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: #0D0D0D;
+}
+main h3 {
+  font-family: "Roboto", sans-serif;
+  padding: 2%;
+  text-align: center;
+}
+main h4 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+main h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-style: solid;
+  border-color: #A4D955;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: #3F7E8C;
+  padding-bottom: 0%;
+}
+footer .pie {
+  padding-top: 8px;
+  padding-bottom: 12px;
+  text-align: center;
+  justify-content: center;
+}
+
+main .consejos {
+  text-align: center;
+  background-color: #E0F2C4;
+}
+main .calesita {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.galeria {
+  text-align: center;
+}
+
+.grid {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  overflow: hidden;
+}
+.grid .ga {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  transition: all 1s;
+}
+.grid .ga:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gb {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  transition: all 1s;
+}
+.grid .gb:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gc {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  transition: all 1s;
+}
+.grid .gc:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gd {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid .gd:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .ge {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid .ge:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .gf {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid .gf:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid .monumentos {
+  height: 300px;
+  width: 200px;
+}
+.grid .paisajes {
+  height: 300px;
+  width: 300px;
+}
+.grid .gente {
+  height: 400px;
+  width: 300px;
+}
+.grid .arte {
+  height: 300px;
+  width: 300px;
+}
+.grid .lugares {
+  height: 300px;
+  width: 200px;
+}
+.grid .ustedes {
+  height: 200px;
+  width: 300px;
+}
+
+.form-itinerario {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#continente {
+  border-style: solid;
+  border-color: #3F7E8C;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+#pais {
+  border-style: solid;
+  border-color: #3F7E8C;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+#ciudad {
+  border-style: solid;
+  border-color: #3F7E8C;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+#estacion {
+  border-style: solid;
+  border-color: #3F7E8C;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.contacto {
+  font-family: "Roboto", sans-serif;
+} /*.texto{
+  text-align: center;
+}*/
+.bienvenidos {
+  margin: 10px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+.video-container .introduccion {
+  justify-content: center;
+  margin: 10%;
+  size-adjust: 200%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+
+div {
+  /*background-color: white;*/
+  margin: 10px;
+}
+
+#enviar {
+  margin-left: 5px;
+  color: white;
+  font-style: oblique;
+  background-color: #3F7E8C;
+  border-color: #A4D955;
+}
+
+input {
+  border-style: solid;
+  border-color: #3F7E8C;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+textarea {
+  border-color: #3F7E8C;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+@media screen and (max-width: 480px) {
+  .grid {
+    display: block;
+  }
+  .barra {
+    flex-direction: column;
+    justify-items: auto;
+  }
+  .galeria-main {
+    height: 2500px;
+  }
+  #galeria-img {
+    width: 300px;
+    height: 500px;
+  }
+  .form-itinerario {
+    display: block;
+  }
+  header .navbar ul {
+    display: block;
+  }
+}
+/* The animation code */
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+/* The element to apply the animation to */
+.prueba {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/*.prueba{
+ width: 100px;
+ height: 100px;
+ transition: all 2s;
+}
+.prueba:hover{
+    padding: 20px;
+    transform: rotate(360deg);
+}*/
+
+/*# sourceMappingURL=style.css.map */

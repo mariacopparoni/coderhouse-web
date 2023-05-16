@@ -1,0 +1,26 @@
+div {
+    /*background-color: white;*/
+    margin: 10px;
+
+  }
+  #enviar{
+    margin-left: 5px;
+    color: white;
+    font-style: oblique;
+    background-color: $azul;
+    border-color: $verde-medio;
+    
+  }
+
+  input{
+    border-style: solid;
+    border-color: $azul;
+    border-radius: 5px;
+    border-width: 2px;    
+  }
+
+  textarea{
+    border-color: $azul;
+    border-radius: 10px;
+    border-width: 2px;
+  }

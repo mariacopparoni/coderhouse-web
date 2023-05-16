@@ -1,0 +1,30 @@
+.form-itinerario{
+    display: flex;
+    flex-wrap: wrap;
+  }
+#continente{
+  border-style: solid;
+  border-color: $azul;
+  border-radius: 5px;
+  border-width: 2px;
+}
+#pais{
+  border-style: solid;
+  border-color: $azul;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+#ciudad{
+  border-style: solid;
+  border-color: $azul;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+#estacion{
+  border-style: solid;
+  border-color: $azul;
+  border-radius: 5px;
+  border-width: 2px;
+}
