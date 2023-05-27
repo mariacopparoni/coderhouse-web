@@ -5,8 +5,8 @@
   .grid {
     justify-content: center;
     display: grid;   
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+    grid-template-columns: repeat(8,100px) ;
+    grid-template-rows: repeat(6,100px) ;
     overflow: hidden;
     .ga {
     

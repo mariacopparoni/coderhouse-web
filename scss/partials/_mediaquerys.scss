@@ -1,5 +1,19 @@
 @media screen and (max-width: 480px) {
+
+header{
+  .navbar{
+    ul{
+      display: block;
+    }
     
+  }
+    
+}
+  
+  }
+
+
+@media screen and (max-width: 800px){
   .grid{
     display: block;
     }
@@ -17,15 +31,6 @@
     .form-itinerario{
       display: block;
     }
-
-header{
-  .navbar{
-    ul{
-      display: block;
-    }
-    
-  }
-    
+ 
 }
-  
-  }
+      

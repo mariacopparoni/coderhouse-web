@@ -1,0 +1,133 @@
+/* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+ .prueba{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  .galeria1{
+    text-align: center;
+ 
+  }
+  .grid1 {
+    justify-content: center;
+    display: grid;   
+    grid-template-columns: repeat(8,100px) ;
+    grid-template-rows: repeat(6,100px) ;
+    overflow: hidden;
+    width: 80%;
+    .ga1 {
+    
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      transition: all 1s;
+    }
+    .ga1:hover {
+      transform: scale(1.1,1.1);
+    }
+      
+    .gb1 {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      transition: all 1s;
+    }
+    .gb1:hover {
+      transform: scale(1.1,1.1);
+    }
+
+    .gc1 {
+      grid-column-start: 6;
+      grid-column-end: 8;
+      grid-row-start: 1;
+      grid-row-end: 4;
+      transition: all 1s;
+    }
+    .gc1:hover {
+      transform: scale(1.1,1.1);
+    }
+
+    .gd1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 6;
+      transition: all 1s;
+    }
+    .gd1:hover {
+      transform: scale(1.1,1.1);
+    }
+    
+    .ge1 {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 4;
+      grid-row-end: 6;
+      transition: all 1s;
+    }
+    .ge1:hover {
+      transform: scale(1.1,1.1);
+    }
+    
+    .gf1 {
+      grid-column-start: 6;
+      grid-column-end: 8;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      transition: all 1s;
+    }
+    .gf1:hover {
+      transform: scale(1.1,1.1);
+    }
+
+    .monumentos{
+      height: 300px;
+      width: 200px;
+    }
+    .paisajes{
+      height: 300px;
+      width: 300px;
+    }
+    .gente{
+      height: 400px;
+      width: 300px;
+    }
+    .arte{
+      height: 300px;
+      width: 300px;
+    }
+    .lugares{
+      height: 300px;
+      width: 200px;
+    }
+    .ustedes{
+      height: 200px;
+      width: 300px;
+    }
+    
+  
+  }
+  
+ 
+
+
+/*.prueba{
+ width: 100px;
+ height: 100px;
+ transition: all 2s;
+}
+.prueba:hover{
+    padding: 20px;
+    transform: rotate(360deg);
+}*/

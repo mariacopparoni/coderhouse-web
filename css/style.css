@@ -86,9 +86,10 @@ main h3 {
   padding: 2%;
   text-align: center;
 }
-main h4 {
+main p {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  font-size: larger;
 }
 main h5 {
   font-family: "Roboto", sans-serif;
@@ -131,8 +132,8 @@ main .calesita {
 .grid {
   justify-content: center;
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(6, 100px);
   overflow: hidden;
 }
 .grid .ga {
@@ -312,6 +313,11 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
+  header .navbar ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 800px) {
   .grid {
     display: block;
   }
@@ -327,9 +333,6 @@ textarea {
     height: 500px;
   }
   .form-itinerario {
-    display: block;
-  }
-  header .navbar ul {
     display: block;
   }
 }
@@ -349,6 +352,103 @@ textarea {
   background-color: red;
   animation-name: example;
   animation-duration: 4s;
+}
+
+.galeria1 {
+  text-align: center;
+}
+
+.grid1 {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(6, 100px);
+  overflow: hidden;
+  width: 80%;
+}
+.grid1 .ga1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  transition: all 1s;
+}
+.grid1 .ga1:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid1 .gb1 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  transition: all 1s;
+}
+.grid1 .gb1:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid1 .gc1 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  transition: all 1s;
+}
+.grid1 .gc1:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid1 .gd1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid1 .gd1:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid1 .ge1 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid1 .ge1:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid1 .gf1 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  transition: all 1s;
+}
+.grid1 .gf1:hover {
+  transform: scale(1.1, 1.1);
+}
+.grid1 .monumentos {
+  height: 300px;
+  width: 200px;
+}
+.grid1 .paisajes {
+  height: 300px;
+  width: 300px;
+}
+.grid1 .gente {
+  height: 400px;
+  width: 300px;
+}
+.grid1 .arte {
+  height: 300px;
+  width: 300px;
+}
+.grid1 .lugares {
+  height: 300px;
+  width: 200px;
+}
+.grid1 .ustedes {
+  height: 200px;
+  width: 300px;
 }
 
 /*.prueba{
